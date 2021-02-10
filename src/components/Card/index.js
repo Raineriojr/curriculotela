@@ -3,12 +3,12 @@ import { View, Text } from 'react-native';
 
 import styles from './styles';
 
-export default function Card({titulo, children}){
+export default function Card({title, children}){
     return(
         <View style={styles.card_container}>
         <View style={styles.card}>
           <View style={styles.card_header}>
-            <Text>{titulo}</Text>
+            <Text>{title}</Text>
           </View>
           <View style={styles.card_body}>
             {children}

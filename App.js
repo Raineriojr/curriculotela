@@ -48,15 +48,15 @@ export default function App(){
           </TouchableOpacity>
         </View>
 
-        <Card titulo="Formação Acadêmica">
+        <Card title="Formação Acadêmica">
           <Text style={styles.text_body}>Técnico em Informática</Text>
           <Text style={styles.text_body}>Engenheiro de Computação</Text>
         </Card>
 
-        <Card titulo="Experiência Profissional">
-          <Text style={styles.text_body}>Estagiário em Faculdade Meta</Text>
-          <Text style={styles.text_body}>Estagiário em SENAC AP</Text>
-          <Text style={styles.text_body}>Estagiário em PRODAP</Text>
+        <Card title="Experiência Profissional">
+          <Text style={styles.text_body}>Estagiário em Faculdade Meta - 2019</Text>
+          <Text style={styles.text_body}>Estagiário em SENAC AP - 2020</Text>
+          <Text style={styles.text_body}>Estagiário em PRODAP - 2021</Text>
         </Card>
         
       </View>
